@@ -35,19 +35,19 @@ function Footer(props) {
                                             <h6> Follow Us</h6>
                                         </div>
                                         <div className="row">
-                                            <a href="" className="social-icon">
+                                            <a href="/"  target='_blank' className="social-icon">
                                                 <img className="icon-image1"
                                                     src={Images.vector2}
                                                     alt=""
                                                 />
                                             </a>
-                                            <a href="" className="social-icon">
+                                            <a href="/"  target='_blank' className="social-icon">
                                                 <img className="icon-image2"
                                                     src={Images.vector_3}
                                                     alt=""
                                                 />
                                             </a>
-                                            <a href="" className="social-icon">
+                                            <a href="/" target='_blank'  className="social-icon">
                                                 <img className="icon-image3"
                                                     src={Images.vector4}
                                                     alt=""

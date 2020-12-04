@@ -1,5 +1,6 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
+import Images from "../../../assets/img/Images/Images";
 function Home(props) {
     return (
         <div>
@@ -10,20 +11,17 @@ function Home(props) {
                             <div class="carousel-indicators">
                                 <div class="row justify-content-start w-100">
                                     <div class="col-md-4 picture pl-0">
-                                        <img data-target="#homeCarousel" src="images/image 52.png" data-slide-to="0"
+                                        <img data-target="#homeCarousel" src={Images.image52png}data-slide-to="0"
                                              class="active image-fluid" />
                                             <div class="text pl-0">
-                                                <h4 class="h4 title1">Cyberpunk 2077
-                                                    Steam Key</h4>
+                                                <h4 class="h4 title1">Cyberpunk 2077 Steam Key</h4>
                                             </div>
                                     </div>
                                     <div class="col-md-4 picture">
                                         <img data-target="#homeCarousel" src="images/image 3.png" data-slide-to="1"
                                              class="active image-fluid "/>
                                             <div class="text">
-                                                <h4 class="h4 title2">PlayerUnknown’s Battlegrounds
-                                                    PC Steam Key
-                                                </h4>
+                                                <h4 class="h4 title2">PlayerUnknown’s Battlegrounds PC Steam Key</h4>
                                             </div>
                                     </div>
                                     <div class="col-md-4 picture pr-0">
@@ -200,7 +198,6 @@ function Home(props) {
                         <li><img src="images/image 28.png" alt="Img 3"/></li>
 
                         <li><img src="images/Rectangle 63.png" alt="Img 4"/></li>
-
 
                     </ul>
                 </div>
