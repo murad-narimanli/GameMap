@@ -11,14 +11,14 @@ function Home(props) {
                             <div class="carousel-indicators">
                                 <div class="row justify-content-start w-100">
                                     <div class="col-md-4 picture pl-0">
-                                        <img data-target="#homeCarousel" src={Images.image52png}data-slide-to="0"
+                                        <img data-target="#homeCarousel" src={Images.image52png} data-slide-to="0"
                                              class="active image-fluid" />
                                             <div class="text pl-0">
                                                 <h4 class="h4 title1">Cyberpunk 2077 Steam Key</h4>
                                             </div>
                                     </div>
                                     <div class="col-md-4 picture">
-                                        <img data-target="#homeCarousel" src="images/image 3.png" data-slide-to="1"
+                                        <img data-target="#homeCarousel" src={Images.image3} data-slide-to="1"
                                              class="active image-fluid "/>
                                             <div class="text">
                                                 <h4 class="h4 title2">PlayerUnknown’s Battlegrounds PC Steam Key</h4>
@@ -35,8 +35,9 @@ function Home(props) {
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/image 1.svg" class="image9 d-block w-100 img-responsive" />
-                                        <img src="images/dd94nor-bc6621a5-69b7-49b8-af0f-12b1cb1879be 1.png"
+                                    <img src={Images.image1svg} class="image9 d-block w-100 img-responsive" />
+                                        <img 
+                                        src={Images.bg1}
                                              class="image10 img-responsive" />
                                             <div class="carousel-caption d-block">
                                                 <div class="container  pl-0">
@@ -51,9 +52,9 @@ function Home(props) {
                                                 </div>
                                                 <div class="row">
                                                     <p>PLATFORMS</p>
-                                                    <img class="icon1" src="images/image 18 (Traced).svg" />
-                                                        <img class="icon2" src="images/image 19 (Traced).svg" />
-                                                            <img class="icon3" src="images/image 42 (Traced).svg" />
+                                                    <img class="icon1" src={Images.image18svg} />
+                                                    <img class="icon2" src={Images.image19svg} />
+                                                    <img class="icon3" src={Images.image42svg}/>
                                                 </div>
                                                 <div class="row genre">
                                                     <p>GENRE</p>
@@ -69,8 +70,8 @@ function Home(props) {
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="images/image 1.png" class="d-block w-100 image1 img-responsive"/>
-                                    <img src="images/dfg 1.svg" class="image2 img-responsive"/>
+                                <img  src={Images.image1} class="d-block w-100 image1 img-responsive"/>
+                                    <img src={Images.dfg1} class="image2 img-responsive"/>
                                         <div class="carousel-caption d-block">
                                             <div class="container pl-0">
                                                 <div class="row title5">
@@ -86,9 +87,9 @@ function Home(props) {
                                                 </div>
                                                 <div class="row">
                                                     <p>PLATFORMS</p>
-                                                    <img class="icon1" src="images/image 18 (Traced).svg"/>
-                                                        <img class="icon2" src="images/image 19 (Traced).svg"/>
-                                                            <img class="icon3" src="images/image 42 (Traced).svg"/>
+                                                    <img class="icon1" src={Images.image18svg} />
+                                                    <img class="icon2" src={Images.image19svg} />
+                                                    <img class="icon3" src={Images.image42svg}/>
                                                 </div>
                                                 <div class="row genre">
                                                     <p>GENRE</p>
@@ -104,8 +105,8 @@ function Home(props) {
                                         </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="images/image 52.png" class="image7 d-block w-100 img-responsive" />
-                                    <img src="images/image 53.svg" class="image8 img-responsive" />
+                                <img src={Images.image52png} class="image7 d-block w-100 img-responsive" />
+                                    <img src={Images.image53} class="image8 img-responsive" />
                                         <div class="carousel-caption d-block">
                                             <div class="container pl-0">
                                                 <div class="row title6">
@@ -119,9 +120,9 @@ function Home(props) {
                                                 </div>
                                                 <div class="row">
                                                     <p>PLATFORMS</p>
-                                                    <img class="icon1" src="images/image 18 (Traced).svg" />
-                                                        <img class="icon2" src="images/image 19 (Traced).svg" />
-                                                            <img class="icon3" src="images/image 42 (Traced).svg" />
+                                                    <img class="icon1" src={Images.image18svg} />
+                                                    <img class="icon2" src={Images.image19svg} />
+                                                    <img class="icon3" src={Images.image42svg}/>
                                                 </div>
                                                 <div class="row genre">
                                                     <p>GENRE</p>
@@ -151,7 +152,7 @@ function Home(props) {
                     <div class="hi-next"><i class="fas fa-chevron-circle-right fa-2x"></i></div>
                     <ul>
 
-                        <li><img class="w-100" src="images/Rectangle 62.png" alt="Img 1"/>
+                        <li><img class="w-100" src={Images.Rectangle62} alt="Img 1"/>
 
                         </li>
                         <div class="caption">
@@ -171,9 +172,9 @@ function Home(props) {
                                 provide extra advantages. </p>
                             <div class="row">
                                 <h6>PLATFORMS</h6>
-                                <img class="icon1" src="images/image 18 (Traced).svg" />
-                                    <img class="icon2" src="images/image 19 (Traced).svg" />
-                                        <img class="icon3" src="images/image 42 (Traced).svg" />
+                                <img class="icon1" src={Images.image18svg} />
+                                                    <img class="icon2" src={Images.image19svg} />
+                                                    <img class="icon3" src={Images.image42svg}/>
                                             <div class="w-100"></div>
                                             <h6>LANGUAGES</h6>
                                             <p class="language">English</p>
@@ -210,83 +211,83 @@ function Home(props) {
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img src="images/image 34.png" class="icon-img1" />
+                            <img src={Images.image34} class="icon-img1" />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img2" src="images/image 32.png" />
+                            <img class="icon-img2" src={Images.image32} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
-                        <div class="icon-box"><img class="icon-img3" src="images/image 39.png" />
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-2 mb-3">
-                    <a class="box" href="">
-                        <div class="icon-box">
-                            <img class="icon-img4" src="images/image 38.png" />
+                        <div class="icon-box"><img class="icon-img3" src={Images.image39} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img1" src="images/image 34.png" />
+                            <img class="icon-img4" src={Images.image38} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img2" src="images/image 32.png" />
+                            <img class="icon-img1" src={Images.image34} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img4" src="images/image 38.png"  />
+                            <img class="icon-img2" src={Images.image32} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img3" src="images/image 39.png" />
+                            <img class="icon-img4" src={Images.image38}  />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img2" src="images/image 32.png" />
+                            <img class="icon-img3" src={Images.image39} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img1" src="images/image 34.png" />
+                            <img class="icon-img2" src={Images.image32} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img4" src="images/image 38.png" />
+                            <img class="icon-img1" src={Images.image34} />
                         </div>
                     </a>
                 </div>
                 <div class="col-md-2 mb-3">
                     <a class="box" href="">
                         <div class="icon-box">
-                            <img class="icon-img3" src="images/image 39.png" />
+                            <img class="icon-img4" src={Images.image38} />
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <a class="box" href="">
+                        <div class="icon-box">
+                            <img class="icon-img3" src={Images.image39} />
                         </div>
                     </a>
                 </div>
@@ -309,7 +310,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 62.png" />
+                            <img class="game-image" src={Images.rectangle62}  />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -321,7 +322,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -350,7 +351,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 61.png" />
+                            <img class="game-image" src={Images.rectangle61} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -361,7 +362,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -390,7 +391,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 63.png" />
+                            <img class="game-image" src={Images.rectangle63} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -403,7 +404,7 @@ function Home(props) {
 
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -432,7 +433,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 64.png" />
+                            <img class="game-image" src={Images.rectangle64} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -442,7 +443,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -471,7 +472,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 65.png" />
+                            <img class="game-image" src={Images.rectangle65} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -482,7 +483,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -511,7 +512,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 66.png" />
+                            <img class="game-image" src={Images.rectangle66} />
                             <div class="overlay"></div>
                         </a>
                                 <div class="row">
@@ -522,7 +523,7 @@ function Home(props) {
                                     </div>
                                     <div class="col-3 justify-content-end">
                                         <button class="btn btn-primary"><img class="vector"
-                                                                             src="images/Vector.svg" /></button>
+                                                                             src={Images.vectorsvg} /></button>
                                     </div>
                                 </div>
                                 <div class="">
@@ -551,7 +552,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 67.png" />
+                            <img class="game-image" src={Images.rectangle67} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -560,7 +561,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -589,7 +590,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="game-image" src="images/Rectangle 68.png" />
+                            <img class="game-image" src={Images.rectangle68} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -599,7 +600,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -638,9 +639,9 @@ function Home(props) {
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 img-responsive image3" src="images/Rectangle 109.png"
+                        <img class="d-block w-100 img-responsive image3" src={Images.rectangle109}
                              alt="First slide"/>
-                            <img src="images/image 50.png" class="img-responsive image4"/>
+                            <img src={Images.image50} class="img-responsive image4"/>
                                 <div class="carousel-caption d-block">
                                     <div class="container pl-0">
                                         <div class="row">
@@ -654,9 +655,9 @@ function Home(props) {
                                         </div>
                                         <div class="row">
                                             <p>PLATFORMS</p>
-                                            <img class="icon1" src="images/image 18 (Traced).svg" />
-                                                <img class="icon2" src="images/image 19 (Traced).svg" />
-                                                    <img class="icon3" src="images/image 42 (Traced).svg" />
+                                            <img class="icon1" src={Images.image18svg} />
+                                                    <img class="icon2" src={Images.image19svg} />
+                                                    <img class="icon3" src={Images.image42svg}/>
                                         </div>
                                         <div class="row genre">
                                             <p>GENRE</p>
@@ -672,7 +673,7 @@ function Home(props) {
                                 </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-responsive image3" src="images/Rectangle 110.png"
+                        <img class="d-block w-100 img-responsive image3" src={Images.rectangle110}
                              alt="Second slide" />
                             <img src="images/PUBG-Character-PNG-Transparent-Picture 1.png"
                                  class="img-responsive image5" />
@@ -689,9 +690,9 @@ function Home(props) {
                                         </div>
                                         <div class="row">
                                             <p>PLATFORMS</p>
-                                            <img class="icon1" src="images/image 18 (Traced).svg" />
-                                                <img class="icon2" src="images/image 19 (Traced).svg" />
-                                                    <img class="icon3" src="images/image 42 (Traced).svg" />
+                                            <img class="icon1" src={Images.image18svg} />
+                                                    <img class="icon2" src={Images.image19svg} />
+                                                    <img class="icon3" src={Images.image42svg}/>
                                         </div>
                                         <div class="row genre">
                                             <p>GENRE</p>
@@ -708,7 +709,7 @@ function Home(props) {
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-block w-100 img-responsive image3" src="images/Rectangle 122.png"
+                        <img class="d-block w-100 img-responsive image3" src={Images.rectangle122}
                              alt="Third slide" />
                             <img src="images/dd94nor-bc6621a5-69b7-49b8-af0f-12b1cb1879be 1.png"
                                  class="img-responsive image6" />
@@ -725,9 +726,9 @@ function Home(props) {
                                         </div>
                                         <div class="row">
                                             <p>PLATFORMS</p>
-                                            <img class="icon1" src="images/image 18 (Traced).svg" />
-                                                <img class="icon2" src="images/image 19 (Traced).svg" />
-                                                    <img class="icon3" src="images/image 42 (Traced).svg" />
+                                            <img class="icon1" src={Images.image18svg} />
+                                                    <img class="icon2" src={Images.image19svg} />
+                                                    <img class="icon3" src={Images.image42svg}/>
                                         </div>
                                         <div class="row genre">
                                             <p>GENRE</p>
@@ -761,7 +762,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="new-game-image" src="images/Rectangle 85.png" />
+                            <img class="new-game-image" src={Images.rectangle85} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -771,7 +772,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -787,7 +788,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="new-game-image" src="images/Rectangle 86.png" />
+                            <img class="new-game-image" src={Images.rectangle86} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -797,7 +798,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -813,7 +814,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="new-game-image" src="images/Rectangle 87.png" />
+                            <img class="new-game-image" src={Images.rectangle87} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -824,7 +825,7 @@ function Home(props) {
                                 </p>
                             </div>
                             <div class="col-3 justify-content-end">
-                                <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                                <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                             </div>
                         </div>
                         <div class="">
@@ -840,7 +841,7 @@ function Home(props) {
                 <div class="col-md-3">
                     <div class="game">
                         <a href="">
-                            <img class="new-game-image" src="images/Rectangle 88.png" />
+                            <img class="new-game-image" src={Images.rectangle88} />
                                 <div class="overlay"></div>
                         </a>
                         <div class="row">
@@ -850,7 +851,7 @@ function Home(props) {
                                 </p>
                         </div>
                         <div class="col-3 justify-content-end">
-                            <button class="btn btn-primary"><img class="vector" src="images/Vector.svg" /></button>
+                            <button class="btn btn-primary"><img class="vector" src={Images.vectorsvg} /></button>
                         </div>
                     </div>
                     <div class="">
